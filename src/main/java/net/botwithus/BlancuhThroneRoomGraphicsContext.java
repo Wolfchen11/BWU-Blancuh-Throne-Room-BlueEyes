@@ -21,6 +21,7 @@ public class BlancuhThroneRoomGraphicsContext extends ScriptGraphicsContext {
                 if (ImGui.BeginTabItem("Settings", ImGuiWindowFlag.None.getValue())) {
                     ImGui.Text("Welcome to my script!");
                     ImGui.Text("My scripts state is: " + script.getBotState());
+                    ImGui.Text("Remaining XP: " + script.getRemainingXP());
                     ImGui.EndTabItem();
                 }
                 if (ImGui.BeginTabItem("Other", ImGuiWindowFlag.None.getValue())) {
